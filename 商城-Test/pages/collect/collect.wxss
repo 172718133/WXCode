@@ -1,0 +1,45 @@
+.main_title{
+  padding: 40rpx 0;
+  background-color: #eaeaeb;
+}
+.tips{
+  padding: 15rpx;
+  border: 1rpx solid #cccccc;
+  margin-left: 30rpx;
+  background-color: #ffffff;
+}
+.active{
+  color: var(--themeColor);
+  border-color: currentColor;
+}
+.goods_item{
+  display: flex;
+  border-bottom: 2rpx solid #ccc;
+  padding: 10rpx;
+}
+.first_left{
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first_left image{
+  width: 80%;
+}
+.first_right{
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.title{
+  font-size: 28rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.price{
+  color: rgb(231, 35, 35);
+  font-size: 32rpx;
+}

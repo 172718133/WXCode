@@ -1,0 +1,13 @@
+@import "./styles/iconfont.wxss";
+
+/* //设置全局样式，清空样式 */
+page,view,text,image,swiper,swiper-item,navigator{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+page{
+  --themeColor:#4cdbd8;
+  font-size: 28rpx;
+}
+image{width: 100%;}

@@ -1,0 +1,19 @@
+<view class="search">
+  <view class="search_input">
+    <image src="/images/search.png"></image>
+    <input value="{{inpValue}}" class="input" placeholder="请输入要搜索的内容" type="text" bindinput="handleInput">
+    </input>
+    <button style="font-weight: normal;width: 160rpx;height: 70rpx;margin: 0;" class="btn" hidden="{{!isFocus}}" bindtap="handleCancel">取消</button>
+  </view>
+  <view class="search_main">
+    <navigator url="/pages/good_detail/good_detail?goodsid={{item.goods_id}}" class="content" wx:for="{{searchGoods}}" wx:key="goods_id">
+      <view class="left">
+        <view class="img">
+          <image class="img_search" src="/images/search-main.png"></image>
+        </view>
+        <text class="txt">{{item.goods_name}}</text>
+      </view>
+      <view class="right">></view>
+    </navigator>
+  </view>
+</view>

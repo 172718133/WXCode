@@ -1,0 +1,75 @@
+
+<view class="user_infos">
+  <view class="user_img" wx:if="{{userinfo.avatarUrl}}">
+    <image class="user_bg" src="{{userinfo.avatarUrl}}"></image>
+    <view class="user_info">
+      <image class="user_head" src="{{userinfo.avatarUrl}}"></image>
+      <view class="user_name">{{userinfo.nickName}}</view>
+    </view>
+  </view>
+  <view class="btn" wx:else>
+    <navigator class="tologin" url="/pages/login/login">請先登錄</navigator>
+  </view>
+</view>
+
+<view class="user_content" wx:if="{{userinfo.avatarUrl}}">
+  <view class="user_main">
+    <!-- 我的收藏 -->
+    <view class="history_info">
+      <navigator>
+        <view class="his_num">0</view>
+        <view class="his_name">收藏店鋪</view>
+      </navigator>
+      <navigator url="/pages/collect/collect">
+        <view class="his_num">{{collectGoodsNum}}</view>
+        <view class="his_name">我的收藏</view>
+      </navigator>
+      <navigator>
+        <view class="his_num">0</view>
+        <view class="his_name">我的關注</view>
+      </navigator>
+      <navigator>
+        <view class="his_num">0</view>
+        <view class="his_name">我的足跡</view>
+      </navigator>
+    </view>
+    <!-- 我的訂單 -->
+    <view class="order_info">
+      <view class="order_my">我的訂單</view>
+      <view class="order_about">
+        <navigator url="/pages/order/order?type=1">
+          <view class="iconfont icon-dingdan"></view>
+          <view class="about_name">全部訂單</view>
+        </navigator>
+        <navigator url="/pages/order/order?type=2">
+          <view class="iconfont icon-fukuantongzhi"></view>
+          <view class="about_name">待付款</view>
+        </navigator>
+        <navigator url="/pages/order/order?type=3">
+          <view class="iconfont icon-gouwuche"></view>
+          <view class="about_name">待收貨</view>
+        </navigator>
+        <navigator>
+          <view class="iconfont icon-tuihuotuikuan_dianpu"></view>
+          <view class="about_name">退款/退貨</view>
+        </navigator>
+      </view>
+    </view>
+    <!-- 收貨地址管理 -->
+    <view class="address">
+      收货地址管理
+    </view>
+    <!-- 其他 -->
+    <view class="app_info">
+      <view class="app_item contact" bindtap="handleCall">
+        <text>致电客服</text>
+        <text>{{phoneNum}}</text>
+      </view>
+      <view class="app_item" bindtap="handleFeedback">意见反馈</view>
+      <view class="app_item" bindtap="handleAbout">关于我们</view>
+    </view>
+    <view class="share" bindtap="handleShare">
+      分享推荐
+    </view>
+  </view>
+</view>

@@ -1,0 +1,20 @@
+<view class="address">地址</view>
+
+<view class="nav" bindtap="handleLocal">
+  <view class="main">具体地址：福建省厦门市海沧区</view>
+  <view class="add">点击前往</view>
+  <view class="tap">></view>
+</view>
+<view class="address">联系方式</view>
+<view class="call">
+  <view class="one">邮箱：</view>
+  <view class="qq">2488174858@qq.com</view>
+</view>
+<view class="call">
+  <view class="one">手机号码：</view>
+  <view class="phone">18760364237</view>
+</view>
+<view class="call">
+  <view class="one">工作室：</view>
+  <view class="name">工作室名称工作室名称工作室名称</view>
+</view>

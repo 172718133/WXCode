@@ -1,0 +1,4 @@
+.login button{
+  width: 60%;
+  margin: 60rpx auto;
+}

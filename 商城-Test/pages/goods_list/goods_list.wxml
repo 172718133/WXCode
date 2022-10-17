@@ -1,0 +1,22 @@
+<view>
+  <SearchInput></SearchInput>
+  <!-- 监听自定义事件 -->
+  <Tabs tabs="{{tabs}}" bindtabsItemChange="handletabsItemChange">
+    <block wx:if="{{tabs[0].isActive}}">
+      <view class="first_tab">
+        <navigator class="goods_item" wx:for="{{goodList}}" wx:key="goods_id"
+        url="/pages/good_detail/good_detail?goodsid={{item.goods_id}}">
+          <view class="first_left">
+            <image src="{{item.goods_small_logo?item.goods_small_logo:'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.yxke.com%2Fstyle%2Fimages%2Fnopic.jpg&refer=http%3A%2F%2Fwww.yxke.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1642316385&t=412e4049f4c810e6de0cb4af644b341b'}}" mode="widthFix"></image>
+          </view>
+          <view class="first_right">
+            <view class="title">{{item.goods_name}}</view>
+            <view class="price">￥{{item.goods_price}}</view>
+          </view>
+        </navigator>
+      </view>
+    </block>
+    <block wx:elif="{{tabs[1].isActive}}">2</block>
+    <block wx:elif="{{tabs[2].isActive}}">3</block>
+  </Tabs>
+</view>

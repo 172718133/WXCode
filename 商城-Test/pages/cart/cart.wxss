@@ -1,0 +1,149 @@
+page{
+  margin-bottom: 90rpx;
+}
+
+
+.cart_address{
+  padding: 30rpx;
+}
+.cart_address button{
+  width: 60%;
+}
+.userAddress{
+  padding: 20rpx 40rpx;
+}
+.userInfo{
+  display: flex;
+  margin-bottom: 20rpx;
+  color: rgb(99, 98, 98);
+}
+.name{
+  margin-right: 50rpx;
+} 
+.add{
+  font-size: 34rpx;
+}
+/* 购物车 */
+.cart_title{
+  padding: 30rpx;
+  margin-top: 20rpx;
+  font-size: 40rpx;
+  color: var(--themeColor);
+  border-top: solid 1rpx #ccc;
+  border-bottom: solid 1rpx #ccc;
+}
+.tishi{
+  height: 200rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+  font-size: 38rpx;
+  font-family: fantasy;
+  font-weight: 400;
+}
+.cart_null{
+  height: 500rpx;
+}
+.cart_item{
+  display: flex;
+  padding: 20rpx 30rpx 10rpx;
+  border-bottom: 1px solid #ccc;
+}
+.cart_check{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart_item navigator{
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20rpx;
+}
+.cart_item iamge{
+  width: 80%;
+}
+.cart_info{
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.goods_name{
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; 
+  color: #666;
+}
+.goods_price_info{
+  display: flex;
+  justify-content: space-between ;
+}
+.goods_price{
+  color: rgb(231, 35, 35);
+  font-size: 34rpx;
+}
+.cart_num{
+  display: flex;
+}
+.num{
+  width: 55rpx;
+  height: 55rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1rpx #ccc;
+}
+.goods_num{
+  width: 55rpx;
+  height: 55rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* footer */
+.footer_tool{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 90rpx;
+  display: flex;
+  border-top: 1rpx solid #ccc;
+  background-color: #fff;
+}
+.allcheck{
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.total_price{
+  flex: 5;
+  text-align: right;
+  font-size: 28rpx;
+  padding-right: 20rpx;
+}
+.total_price_num{
+  color: rgb(231, 35, 35);
+  font-size: 36rpx;
+  font-weight: 500;
+}
+.hanyuinf{
+  font-size: 26rpx;
+}
+.order_pay{
+  flex: 3;
+  background-color: rgb(231, 35, 35);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32rpx;
+  font-weight: 400;
+}

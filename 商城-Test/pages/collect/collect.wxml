@@ -1,0 +1,20 @@
+<Tabs tabs="{{tabs}}" bindtabsItemChange="handletabsItemChange">
+  <view class="collect_main">
+    <view class="main_title">
+      <text class="tips active">全部</text>
+      <text class="tips">正在热卖</text>
+      <text class="tips">即将上线</text>
+    </view>
+    <view class="content">
+      <navigator class="goods_item" wx:for="{{collect}}" wx:key="goods_id" url="/pages/good_detail/good_detail?goodsid={{item.goods_id}}">
+        <view class="first_left">
+          <image src="{{item.goods_small_logo?item.goods_small_logo:'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.yxke.com%2Fstyle%2Fimages%2Fnopic.jpg&refer=http%3A%2F%2Fwww.yxke.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1642316385&t=412e4049f4c810e6de0cb4af644b341b'}}" mode="widthFix"></image>
+        </view>
+        <view class="first_right">
+          <view class="title">{{item.goods_name}}</view>
+          <view class="price">￥{{item.goods_price}}</view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</Tabs>

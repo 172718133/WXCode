@@ -1,0 +1,25 @@
+.nav{
+  font-size: 30rpx;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.main{
+  width: 80%;
+}
+.address{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40rpx;
+  font-weight: 600;
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+}
+.call{
+  display: flex;
+  justify-content: space-between;
+  margin: 40rpx 20rpx;
+}

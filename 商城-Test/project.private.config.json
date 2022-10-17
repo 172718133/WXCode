@@ -1,0 +1,84 @@
+{
+    "setting": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "商品详情",
+                    "pathName": "pages/good_detail/good_detail",
+                    "query": "goodsid=17927",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/cart/cart",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "付款页面",
+                    "pathName": "pages/pay/pay",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "登錄",
+                    "pathName": "pages/login/login",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "個人中心",
+                    "pathName": "pages/user/user",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "我的訂單",
+                    "pathName": "pages/order/order",
+                    "query": "type=1",
+                    "scene": null
+                },
+                {
+                    "name": "收藏",
+                    "pathName": "pages/collect/collect",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "搜索",
+                    "pathName": "pages/search/search",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "关于我们",
+                    "pathName": "pages/about/about",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "意见反馈",
+                    "pathName": "pages/feedback/feedback",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "商品列表",
+                    "pathName": "pages/goods_list/goods_list",
+                    "query": "cid=12",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}
