@@ -1,0 +1,167 @@
+{
+
+	// 配置throUI
+	"easycom": {
+			"autoscan": true,//是否自动扫描组件
+			"custom": {//自定义扫描规则
+			    "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue",//uview
+				"^uni-(.*)": "@/components/uni-$1/uni-$1.vue",// 匹配components目录内的vue文件
+				"tui-(.*)": "@/components/thorui/tui-$1/tui-$1.vue"//throui
+			}
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/xiangxi/shujutongji",
+			"style": {
+				"navigationBarTitleText": "数据统计",
+				"navigationBarBackgroundColor": "#eb0909",
+				"backgroundColor": "#eb0909"
+			}
+		},
+		{
+			"path": "pages/weizhi/index",
+			"style": {
+				"navigationBarTitleText": "位置",
+				"navigationBarBackgroundColor": "#eb0909",
+				"backgroundColor": "#eb0909",
+				"mp-weixin": {
+					"disableScroll": true
+				},
+				"app-plus": {
+					"bounce": "none"
+				},
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				},
+				"mp-baidu": {
+					"disableScroll": true
+				}
+			}
+		},{
+			"path": "pages/xiangxi/index",
+			"style": {
+				"navigationBarTitleText": "详细",
+				"navigationBarBackgroundColor": "#eb0909",
+				"backgroundColor": "#eb0909"
+			}
+		},{
+			"path": "pages/wode/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#eb0909",
+				"backgroundColor": "#eb0909"
+			}
+		},{
+			"path": "pages/wode/aboutus",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"navigationBarBackgroundColor": "#eb0909",
+				"backgroundColor": "#eb0909"
+			}
+		},{
+			"path": "pages/wode/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#eb0909",
+				"backgroundColor": "#eb0909"
+			}
+		},{
+			"path": "pages/wode/suggest",
+			"style": {
+				"navigationBarTitleText": "问题反馈",
+				"navigationBarBackgroundColor": "#eb0909",
+				"backgroundColor": "#eb0909"
+			}
+		},{
+			"path": "pages/weizhi/detail",
+			"style": {
+				"navigationBarTitleText": "详细",
+				"navigationBarBackgroundColor": "#eb0909",
+				"backgroundColor": "#eb0909"
+			}
+		},{
+			"path": "pages/xiangxi/xuanzediqu",
+			"style": {
+				"navigationBarTitleText": "选择地区",
+				"navigationBarBackgroundColor": "#eb0909",
+				"backgroundColor": "#eb0909"
+			}
+		},{
+			"path": "pages/xiangxi/wenshidu",
+			"style": {
+				"navigationBarTitleText": "温湿度",
+				"navigationBarBackgroundColor": "#eb0909",
+				"backgroundColor": "#eb0909"
+			}
+		},{
+			"path": "pages/xiangxi/yongdianfenxi",
+			"style": {
+				"navigationBarTitleText": "用电分析",
+				"navigationBarBackgroundColor": "#eb0909",
+				"backgroundColor": "#eb0909"
+			}
+		},{
+			"path": "pages/xiangxi/shishishuju",
+			"style": {
+				"navigationBarTitleText": "实时数据",
+				"navigationBarBackgroundColor": "#eb0909",
+				"backgroundColor": "#eb0909"
+			}
+		},{
+			"path": "pages/xiangxi/yunxingjilu",
+			"style": {
+				"navigationBarTitleText": "运行记录",
+				"navigationBarBackgroundColor": "#eb0909",
+				"backgroundColor": "#eb0909"
+			}
+		},{
+			"path": "pages/xiangxi/shebeitaizhang",
+			"style": {
+				"navigationBarTitleText": "设备台账",
+				"navigationBarBackgroundColor": "#eb0909",
+				"backgroundColor": "#eb0909"
+			}
+		},{
+			"path": "pages/wode/lishigaojing",
+			"style": {
+				"navigationBarTitleText": "历史告警",
+				"navigationBarBackgroundColor": "#eb0909",
+				"backgroundColor": "#eb0909"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "智慧烤烟房",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	        "color": "#7A7E83",
+	        "selectedColor": "#ff007f",
+	        "borderStyle": "white",
+	        "backgroundColor": "#fffff",
+	        "list": [{
+	            "pagePath": "pages/weizhi/index",
+	            "iconPath": "static/images/weizhi1.png",
+	            "selectedIconPath": "static/images/weizhi2.png",
+	            "text": "位置"
+	        },{
+			    "pagePath": "pages/xiangxi/index",
+			   "iconPath": "static/images/xiangxi1.png",
+			   "selectedIconPath": "static/images/xiangxi2.png",
+			    "text": "详细"
+			},{
+			    "pagePath": "pages/xiangxi/shujutongji",
+			   "iconPath": "static/images/shuju2.png",
+			   "selectedIconPath": "static/images/shuju.png",
+			    "text": "统计"
+			},{
+			    "pagePath": "pages/wode/index",
+			   "iconPath": "static/images/wode1.png",
+			   "selectedIconPath": "static/images/wode2.png",
+			    "text": "个人"
+			}
+		]
+	}
+}

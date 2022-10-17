@@ -1,0 +1,52 @@
+
+page {
+	background: #F2F2F2;
+	width: 750rpx;
+	overflow-x: hidden;
+}
+.qiun-padding {
+	padding: 2%;
+	width: 96%;
+}
+.qiun-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+.qiun-rows {
+	display: flex;
+	flex-direction: row !important;
+}
+.qiun-columns {
+	margin-top: 50rpx;
+	margin-left: 20rpx;
+	display: flex;
+	flex-direction: column !important;
+}
+.qiun-common-mt {
+	margin-top: 10rpx;
+}
+.qiun-bg-white {
+	background: #FFFFFF;
+}
+.qiun-title-bar {
+	width: 96%;
+	padding: 10rpx 2%;
+	flex-wrap: nowrap;
+}
+.qiun-title-dot-light {
+	border-left: 10rpx solid #0ea391;
+	padding-left: 10rpx;
+	font-size: 32rpx;
+	color: #000000
+}
+.qiun-charts {
+	width: 750rpx;
+	height: 500rpx;
+	background-color: #FFFFFF;
+}
+.charts {
+	width: 750rpx;
+	height: 500rpx;
+	background-color: #FFFFFF;
+}
+

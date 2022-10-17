@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "运行记录",
+  "navigationBarBackgroundColor": "#eb0909",
+  "backgroundColor": "#eb0909",
+  "usingComponents": {
+    "u-form": "/uview-ui/components/u-form/u-form",
+    "u-form-item": "/uview-ui/components/u-form-item/u-form-item",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "uni-datetime-picker": "/components/uni-datetime-picker/uni-datetime-picker",
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-table": "/uview-ui/components/u-table/u-table",
+    "u-tr": "/uview-ui/components/u-tr/u-tr",
+    "u-td": "/uview-ui/components/u-td/u-td",
+    "u-action-sheet": "/uview-ui/components/u-action-sheet/u-action-sheet",
+    "u-picker": "/uview-ui/components/u-picker/u-picker"
+  }
+}
